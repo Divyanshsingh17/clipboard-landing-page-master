@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: hsl(201, 11%, 66%); */
+    /* line-height: 3rem; */
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    width:100vw;
+    height: 100vh;
+}
+
+header{
+    height:13rem;
+    width: 100vw;
+}
+header>img{
+    width: 100vw;
+    object-fit: cover;
+}
+section>h1,h3{
+    text-align: center;
+    font-size: 2.4rem;
+}
+section>p{
+    color:hsl(201, 11%, 66%);
+    text-align: center;
+    font-size: 18px;
+    margin: 0rem 5rem;
+    /* background-color: blueviolet; */
+}
+section>div{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin: 2rem 0rem 8rem;
+}
+section>div>button,section>div:nth-of-type(6)>div>button{
+    color:white;
+    background-color: hsl(171, 66%, 44%);
+    border: 0px;
+    
+    padding: 0.8rem 2.9rem;
+    border-radius: 1.5rem;
+}
+button:nth-of-type(2),section>div:nth-of-type(6)>div>button:nth-of-type(2){
+    background-color:  hsl(233, 100%, 69%) ;
+}
+section>div:nth-of-type(2){
+    width: 100vw;
+    height:40vh;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 10rem;
+}
+
+div:nth-of-type(2)>img{
+    width: 40vw;
+    height: 60vh;
+}
+div:nth-of-type(2)>div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    /* padding: 10rem 0rem 10rem 2rem; */
+}
+div:nth-of-type(2)>div>h4{
+    font-size: larger;
+    line-height: 2rem;
+}
+div:nth-of-type(2)>div>p{
+    color:hsl(201, 11%, 66%);
+    margin-bottom: 2rem;
+    font-size: 18px;
+    text-align: center;   
+}
+section>div:nth-of-type(3){
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+    margin: 10rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(3)>h2{
+    font-size:2.5rem;
+    color: black;
+}
+div:nth-of-type(3)>img{
+    width: 60vw;
+    height: 70vh;
+    margin-left: 20rem;
+    
+}
+section>div:nth-of-type(4){
+    width:100vw;
+    display: flex;
+    gap: 4rem;
+}
+section>div:nth-of-type(4)>div{
+    flex-direction: column;
+    color:hsl(201, 11%, 66%) ;
+    text-align: center;
+
+}
+section>div:nth-of-type(5){
+    display: flex;
+    justify-content: space-around;
+}
+section>div:nth-of-type(6){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section>div:nth-of-type(6)>p{
+    color:hsl(201, 11%, 66%) ;
+    text-align: center;
+}
+section>div:nth-of-type(6)>div>button{
+    background-color: ;
+}
